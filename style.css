@@ -1,0 +1,157 @@
+
+
+
+.nav-link{
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+}
+.nav-item{
+  margin: 20px 20px 0 20px;
+}
+.cover {
+height:600px;
+width: 100%;
+background-size: cover;
+background-position:center;
+
+}
+.content{
+color: white;
+position: relative;
+overflow: hidden;
+background-color: rgba(0, 0, 0, 0.3);
+width: 890px;
+}
+.navbar{
+  position: relative;
+  top: 100%;
+  transform: translateY(-100%);
+}
+.we{
+  padding: 3% 16%;
+  text-align: center;
+}
+.head1{
+  color:#03256C;
+  margin-bottom: 2%;
+}
+.sub1{
+  color: #1768AC;
+  margin-bottom: 3%;
+}
+
+.color-section{
+  color: white;
+  padding: 3% 0 3% 3%;
+  margin:0;
+  background-color:#262F57;
+}
+
+.picabout{
+  height:500px;
+  width:495px;
+}
+.need-button {
+  margin: 5% 3% 5% 0;
+}
+.white-section{
+  padding: 7% 12%;
+}
+#features {
+  position: relative;
+    text-align: center;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+  }
+.vms{
+  margin-bottom: 1rem;
+  width: 40%;
+  height: 30%;
+}
+#activity{
+  padding: 0 6%;
+}
+.photo-activity{
+  width: 600px;
+}
+#Distribution{
+
+padding:7% 15%;
+text-align: center;
+  background-color:#262F57;
+  color:#fff;
+}
+/*---------------------------------------
+  Contact section
+-----------------------------------------*/
+#contact{
+  padding: 3% 10%;
+}
+.contact-info .fa {
+  padding-right: 5px;
+}
+
+#contact .form-control {
+  border: none;
+  border-bottom: 2px solid #f0f0f0;
+  border-radius: 0px;
+  box-shadow: none;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+#contact .form-control:focus {
+  border-bottom-color: #999999;
+}
+
+#contact input {
+  height: 55px;
+}
+
+#contact button#submit {
+  background: #2b2b2b;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  height: 50px;
+  margin-top: 24px;
+}
+
+#contact button#submit:hover {
+  background: #B3E283;
+  color: #ffffff;
+}
+
+#footer{
+  padding: 7% 10%;
+  text-align: center;
+  background-color:#262F57;
+  }
+
+  .social-icon {
+
+    margin: 20px 10px;
+    color:white;
+}
+iframe{
+  margin-left:350px;
+}
+@media (max-width: 1028px) {
+  .banner{
+    padding: 100px;
+    height:50%
+  }
+
+  .content{
+    width: auto;
+  }
+  }
